@@ -1,0 +1,28 @@
+{
+    "data": [
+        {
+            "title": "Green Park",
+            "address": "Tangerang, Indonesia",
+            "img": "/assets/images/HotelsLarge/green-park.png",
+            "isPopular": false
+        },
+        {
+            "title": "Podo Wae",
+            "address": "Madiun, Indonesia",
+            "img": "/assets/images/HotelsLarge/podo-wae.png",
+            "isPopular": false
+        },
+        {
+            "title": "Silver Rain",
+            "address": "Bandung, Indonesia",
+            "img": "/assets/images/HotelsLarge/silver-rain.png",
+            "isPopular": false
+        },
+        {
+            "title": "Cashville",
+            "address": "Kemang, Indonesia",
+            "img": "/assets/images/HotelsLarge/cashville.png",
+            "isPopular": true
+        }
+    ]
+}

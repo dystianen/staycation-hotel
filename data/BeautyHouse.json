@@ -1,0 +1,28 @@
+{
+    "data": [
+        {
+            "title": "Tabby Town",
+            "address": "Gunung Batu, Indonesia",
+            "img": "/assets/images/BeautyHouse/tobby-town.png",
+            "isPopular": true
+        },
+        {
+            "title": "Anggana",
+            "address": "Bogor, Indonesia",
+            "img": "/assets/images/BeautyHouse/anggana.png",
+            "isPopular": false
+        },
+        {
+            "title": "Seattle Rain",
+            "address": "Jakarta, Indonesia",
+            "img": "/assets/images/BeautyHouse/seattle-rain.png",
+            "isPopular": false
+        },
+        {
+            "title": "Wodden Pit",
+            "address": "Wonosobo, Indonesia",
+            "img": "/assets/images/BeautyHouse/wodden-pit.png",
+            "isPopular": false
+        }
+    ]
+}

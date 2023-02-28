@@ -1,0 +1,34 @@
+{
+    "data": [
+        {
+            "title": "Blue Origin Fams",
+            "address": "Jakarta, Indonesia",
+            "price": 50,
+            "img": "/assets/images/Most Picked/blue-origin.png"
+        },
+        {
+            "title": "Ocean Land",
+            "address": "Bandung, Indonesia",
+            "price": 22,
+            "img": "/assets/images/Most Picked/ocean-land.png"
+        },
+        {
+            "title": "Stark House",
+            "address": "Malang, Indonesia",
+            "price": 856,
+            "img": "/assets/images/Most Picked/stark-house.png"
+        },
+        {
+            "title": "Vinna Vill",
+            "address": "Malang, Indonesia",
+            "price": 62,
+            "img": "/assets/images/Most Picked/vinna-vill.png"
+        },
+        {
+            "title": "Bobox",
+            "address": "Medan, Indonesia",
+            "price": 72,
+            "img": "/assets/images/Most Picked/bobox.png"
+        }
+    ]
+}

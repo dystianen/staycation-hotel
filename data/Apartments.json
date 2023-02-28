@@ -1,0 +1,28 @@
+{
+    "data": [
+        {
+            "title": "PS Wood",
+            "address": "Depok, Indonesia",
+            "img": "/assets/images/Apartments/ps-wood.png",
+            "isPopular": true
+        },
+        {
+            "title": "One Five",
+            "address": "Jakarta, Indonesia",
+            "img": "/assets/images/Apartments/one-five.png",
+            "isPopular": false
+        },
+        {
+            "title": "Minimal",
+            "address": "Bogor, Indonesia",
+            "img": "/assets/images/Apartments/minimal.png",
+            "isPopular": false
+        },
+        {
+            "title": "Stays Home",
+            "address": "Wonosobo, Indonesia",
+            "img": "/assets/images/Apartments/stays-home.png",
+            "isPopular": false
+        }
+    ]
+}
