@@ -4,9 +4,9 @@ import Image from 'next/image';
 
 const Hero = () => {
   return (
-    <div className='flex flex-col-reverse pt-20 md:pt-0 md:flex-row justify-end md:justify-between items-center h-screen'>
+    <div className='flex flex-col-reverse lg:flex-row pt-20 lg:pt-0 justify-end lg:justify-between lg:items-center h-screen'>
       <div className='flex flex-col gap-5 md:gap-10'>
-        <h1 className='text-3xl md:text-5xl mt-5 md:mt-0 text-darkblue font-bold'>
+        <h1 className='text-3xl md:text-5xl mt-5 lg:mt-0 text-darkblue font-bold'>
           Forget Busy Work, <br className='hidden md:block'/>
           Start Next Vacation
         </h1>

@@ -78,6 +78,12 @@ main {
 footer {
   border-top: 1px solid lightgrey;
   width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+footer > div {
+  width: min(100vw - 5em, 1150px);
 }
 
 a {
