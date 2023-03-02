@@ -3,7 +3,7 @@ const Footer = () => {
     <div className='grid grid-cols-2 md:grid-cols-4 gap-5 px-10 md:px-24 py-16'>
       <div>
         <h1 className="text-2xl font-bold text-lightblue">
-          Stay<span className='text-darkblue'>cation.</span>
+          Stay<span className='text-darkblue'>cation.s</span>
         </h1>
         <p className="font-light text-lightgray">
           We kaboom your beauty holiday <br />
