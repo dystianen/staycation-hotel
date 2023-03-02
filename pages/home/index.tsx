@@ -11,7 +11,8 @@ const Home = () => {
 
   function showMostPicked() {
     if (myRef.current != null) {
-      myRef.current.scrollIntoView({
+      window.scrollTo({
+        top: myRef.current.offsetTop - 130,
         behavior: 'smooth' 
       });
     }
