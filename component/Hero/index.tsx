@@ -1,20 +1,17 @@
 import { Button } from '@/component/Button';
 import React from 'react';
 import Image from 'next/image';
-import { useRouter } from 'next/router';
 
 const Hero = () => {
-  const router = useRouter();
-
   return (
-    <div className='flex flex-row justify-between items-center h-screen'>
-      <div className='flex flex-col gap-10'>
-        <h1 className='text-5xl text-darkblue font-bold'>
-          Forget Busy Work, <br />
+    <div className='flex flex-col-reverse pt-20 md:pt-0 md:flex-row justify-end md:justify-between items-center h-screen'>
+      <div className='flex flex-col gap-5 md:gap-10'>
+        <h1 className='text-3xl md:text-5xl mt-5 md:mt-0 text-darkblue font-bold'>
+          Forget Busy Work, <br className='hidden md:block'/>
           Start Next Vacation
         </h1>
         <p className='text-lightgray font-light text-xl'>
-          We provide what you need to enjoy your <br /> holiday with family. Time to make another <br /> memorable moments.
+          We provide what you need to enjoy your <br className='hidden md:block'/> holiday with family. Time to make another <br className='hidden md:block'/> memorable moments.
         </p>
         <Button>Show Me Now</Button>
 
