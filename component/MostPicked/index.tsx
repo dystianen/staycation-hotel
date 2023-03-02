@@ -1,11 +1,11 @@
-import { useRouter } from 'next/router';
+import { PropsWithRef } from 'react';
 import data from '../../data/MostPicked.json';
 import { Title } from '../Title';
 
-const MostPicked = () => {
+const MostPicked = (props: PropsWithRef<any>) => {
 
   return (
-    <>
+    <section ref={props.mostPicked}>
       <Title>Most Picked</Title>
       <div className='grid grid-cols-1 md:grid-cols-3 grid-rows-2 gap-6'>
         {data.data.map((it, index) => (
@@ -19,7 +19,7 @@ const MostPicked = () => {
           </div>
         ))}
       </div>
-    </>
+    </section>
   );
 };
 

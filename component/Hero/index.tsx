@@ -1,8 +1,9 @@
 import { Button } from '@/component/Button';
-import React from 'react';
+import React, { PropsWithRef } from 'react';
 import Image from 'next/image';
 
-const Hero = () => {
+const Hero = (props: PropsWithRef<any>) => {
+
   return (
     <div className='flex flex-col-reverse lg:flex-row pt-20 lg:pt-0 justify-end lg:justify-between lg:items-center h-screen'>
       <div className='flex flex-col gap-5 md:gap-10'>
@@ -13,7 +14,7 @@ const Hero = () => {
         <p className='text-lightgray font-light text-xl'>
           We provide what you need to enjoy your <br className='hidden md:block'/> holiday with family. Time to make another <br className='hidden md:block'/> memorable moments.
         </p>
-        <Button>Show Me Now</Button>
+        <Button onClick={props.onClickShow}>Show Me Now</Button>
 
         <div className='flex flex-row justify-between w-full md:w-4/5 mt-10'>
           <div className='flex flex-col justify-between gap-2'>

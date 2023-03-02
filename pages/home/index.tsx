@@ -4,18 +4,27 @@ import BeautyHouse from '@/component/BeautyHouse';
 import HotelsLarge from '@/component/HotelsLarge';
 import Apartments from '@/component/Apartments';
 import Story from '@/component/Story';
-import Footer from '@/component/Footer';
+import { createRef, useRef } from 'react';
 
 const Home = () => {
+  const myRef = useRef<HTMLInputElement>(null);
+
+  function showMostPicked() {
+    if (myRef.current != null) {
+      myRef.current.scrollIntoView({
+        behavior: 'smooth' 
+      });
+    }
+  }
+
   return (
     <>
-      <Hero />
-      <MostPicked />
+      <Hero onClickShow={showMostPicked} />
+      <MostPicked mostPicked={myRef} />
       <BeautyHouse />
       <HotelsLarge />
       <Apartments />
       <Story />
-      {/* <Footer /> */}
     </>
   );
 };
