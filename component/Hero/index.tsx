@@ -15,7 +15,7 @@ const Hero = () => {
         </p>
         <Button>Show Me Now</Button>
 
-        <div className='flex flex-row justify-between w-4/5 mt-10'>
+        <div className='flex flex-row justify-between w-full md:w-4/5 mt-10'>
           <div className='flex flex-col justify-between gap-2'>
             <Image src={'/assets/icons/traveler.svg'} width={20} height={20} alt='traveler' />
             <p>
