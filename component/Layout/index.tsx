@@ -30,16 +30,16 @@ export const Layout = ({ children }: PropsWithChildren<unknown>): JSX.Element =>
               Stay<span className='text-darkblue'>cation.</span>
             </h1>
             <div className={'hidden md:flex flex-row gap-10'}>
-              <a className={`${path === 'home' && 'text-lightblue'} hover:cursor-pointer hover:text-lightblue duration-300`} onClick={() => onChangeMenu('/home')}>
+              <a className={`${path === 'home' && 'text-lightblue'} hover:cursor-pointer hover:text-lightblue`} onClick={() => onChangeMenu('/home')}>
                 Home
               </a>
-              <a className={`${path === 'about' && 'text-lightblue'} hover:cursor-pointer hover:text-lightblue duration-300`} onClick={() => onChangeMenu('#')}>
+              <a className={`${path === 'about' && 'text-lightblue'} hover:cursor-pointer hover:text-lightblue`} onClick={() => onChangeMenu('#')}>
                 Browse by
               </a>
-              <a className={`${path === 'portfolio' && 'text-lightblue'} hover:cursor-pointer hover:text-lightblue duration-300`} onClick={() => onChangeMenu('#')}>
+              <a className={`${path === 'portfolio' && 'text-lightblue'} hover:cursor-pointer hover:text-lightblue`} onClick={() => onChangeMenu('#')}>
                 Stories
               </a>
-              <a className={`${path === 'certificate' && 'text-lightblue'} hover:cursor-pointer hover:text-lightblue duration-300`} onClick={() => onChangeMenu('#')}>
+              <a className={`${path === 'certificate' && 'text-lightblue'} hover:cursor-pointer hover:text-lightblue`} onClick={() => onChangeMenu('#')}>
                 Agents
               </a>
             </div>
@@ -51,16 +51,16 @@ export const Layout = ({ children }: PropsWithChildren<unknown>): JSX.Element =>
         </header>
 
         <div className={`z-50 fixed flex flex-col ${isShowNavbar ? 'visible' : 'invisible'} md:hidden gap-10 bg-white min-h-40 w-full mt-20 rounded-b-[20px] p-10 shadow-2xl`}>
-          <a className={`${path === 'home' && 'text-lightblue'} hover:cursor-pointer hover:text-lightblue duration-300`} onClick={() => onChangeMenu('/home')}>
+          <a className={`${path === 'home' && 'text-lightblue'} hover:cursor-pointer hover:text-lightblue`} onClick={() => onChangeMenu('/home')}>
             Home
           </a>
-          <a className={`${path === 'browse' && 'text-lightblue'} hover:cursor-pointer hover:text-lightblue duration-300`} onClick={() => onChangeMenu('#')}>
+          <a className={`${path === 'browse' && 'text-lightblue'} hover:cursor-pointer hover:text-lightblue`} onClick={() => onChangeMenu('#')}>
             Browse by
           </a>
-          <a className={`${path === 'stories' && 'text-lightblue'} hover:cursor-pointer hover:text-lightblue duration-300`} onClick={() => onChangeMenu('#')}>
+          <a className={`${path === 'stories' && 'text-lightblue'} hover:cursor-pointer hover:text-lightblue`} onClick={() => onChangeMenu('#')}>
             Stories
           </a>
-          <a className={`${path === 'agents' && 'text-lightblue'} hover:cursor-pointer hover:text-lightblue duration-300`} onClick={() => onChangeMenu('#')}>
+          <a className={`${path === 'agents' && 'text-lightblue'} hover:cursor-pointer hover:text-lightblue`} onClick={() => onChangeMenu('#')}>
             Agents
           </a>
         </div>
